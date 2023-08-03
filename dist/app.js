@@ -14,8 +14,8 @@ app.post("/", async (req, res, next) => {
             port: 465,
             host: "smtp.gmail.com",
             auth: {
-                user: "mmt161627@gmail.com",
-                pass: "muhammad2959",
+                user: "@gmail.com",
+                pass: "", //your password here
             },
             secure: true,
         });
