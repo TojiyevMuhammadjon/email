@@ -13,8 +13,8 @@ app.post(
         port: 465, // true for 465, false for other ports
         host: "smtp.gmail.com",
         auth: {
-          user: "mmt161627@gmail.com",
-          pass: "muhammad2959",
+          user: "@gmail.com",// enter your email address
+          pass: "",//your password here
         },
         secure: true,
       });
